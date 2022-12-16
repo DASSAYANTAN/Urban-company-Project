@@ -1,0 +1,704 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* navbar starts here */
+#logoImg {
+  margin-top: 6px;
+}
+
+#navBlock {
+  background-image: url(./images/WhatsApp\ Image\ 2022-10-27\ at\ 6.40.06\ PM.jpeg);
+  height: 75vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#navBlock article {
+  height: 60px;
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+}
+/* Navbar ends here */
+
+/* Menu starts here */
+#menuBlock ul {
+  display: flex;
+  list-style: none;
+}
+
+#menuBlock ul li a {
+  padding: 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 17px;
+}
+/* Menu ends here */
+
+/* Slider starts here */
+#slider1 {
+  display: flex;
+  flex-direction: column;
+  height: 60vh;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+#aside1 {
+  width: 800px;
+  position: relative;
+}
+
+#inp1 {
+  width: 180px;
+  height: 50px;
+  margin-right: 15px;
+  border-radius: 5px;
+  background-color: white;
+  color: #555;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+#inp1:hover {
+  color: #222;
+}
+
+#inp2 {
+  width: 600px;
+  height: 50px;
+  padding-left: 50px;
+  border-radius: 5px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#h11 {
+  font-size: 50px;
+  padding: 45px;
+}
+
+a {
+  color: #fff;
+}
+
+#a1 {
+  font-size: 12px;
+}
+
+aside {
+  text-align: center;
+  justify-content: center;
+  position: relative;
+}
+
+#mglass {
+  position: absolute;
+  left: 210px;
+  color: grey;
+  top: 17px;
+}
+/* Slider ends here */
+
+/* Page2 starts here */
+#page2 {
+  color: black;
+  width: 100%;
+  height: 70vh;
+  position: relative;
+}
+#page2 ul {
+  height: 25vh;
+  background-color: #fff;
+  border-radius: 5px;
+  display: flex;
+  width: 60%;
+  margin: 0 auto;
+  list-style: none;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0 8px 26px 0 rgb(0 0 0 / 8%);
+}
+.sect1 {
+  position: absolute;
+  top: -12%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.sect2 {
+  position: absolute;
+  bottom: 7%;
+  /* top: 30%; */
+  left: 50%;
+  transform: translateX(-50%);
+}
+#page2 h1 {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#page2 ul li {
+  padding: 15px;
+  background-color: #fff;
+  transition: all 0.5s ease;
+}
+#page2 ul li:hover {
+  background-color: rgba(235, 232, 232, 0.858);
+  transition: all 0.5s ease;
+}
+#page2 ul span {
+  width: 100%;
+  text-align: center;
+  font-size: small;
+}
+/* Page2 ends here */
+
+/* Page3 starts here */
+#page3 {
+  color: black;
+  height: 50vh;
+  width: 100%;
+  padding: 110px 30px 10px 30px;
+  overflow: hidden;
+  /* background-color: green; */
+}
+#page3 ul {
+  box-sizing: content-box;
+  width: 150%;
+  display: flex;
+  margin: 0 auto;
+  list-style: none;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+}
+#page3 ul li {
+  box-sizing: content-box;
+  padding: 10px 30px 0px;
+}
+#page3 ul li img {
+  transition: all 0.3s ease;
+}
+#page3 ul li img:hover {
+  transform: scale(1.15);
+  transition: all 0.6s ease;
+}
+/* Page3 ends here */
+
+/* Page4 starts here */
+#page4 {
+  border-top: 18px solid rgb(242, 244, 246);
+  color: black;
+  height: 60vh;
+  width: 100%;
+  padding: 30px;
+  /* background-color: red; */
+}
+#page4 h1 {
+  text-align: center;
+  margin: 10px 0px 30px;
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+#page4 ul {
+  height: 50vh;
+  box-sizing: content-box;
+  width: 95%;
+  display: flex;
+  margin: 10px auto 0px;
+  list-style: none;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+}
+#page4 ul li {
+  flex-basis: 25%;
+  height: 50vh;
+  box-sizing: content-box;
+  padding: 0px 22px 0px 0px;
+}
+#page4 ul li img {
+  transition: all 0.3s ease;
+  border-radius: 5px;
+}
+#page4 ul li figure {
+  width: 100%;
+  height: 25vh;
+  padding-bottom: 30px;
+  background-image: url(https://res.cloudinary.com/urbanclap/image/upload/q_auto,f_auto,fl_progressive:steep,w_532/t_high_res_category/categories/bigpictures/carpenter.jpg);
+  background-size: cover;
+  background-position: center;
+  transition: all 0.3s ease;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+#page4 ul li figure:hover {
+  transform: scale(1.1);
+  transition: all 0.6s ease;
+}
+#page4 ul li img:hover {
+  transform: scale(1.12);
+  transition: all 0.6s ease;
+}
+#page4 ul li p {
+  font-size: small;
+  margin-bottom: -5px;
+}
+#page4 ul li small {
+  font-size: 11px;
+  color: grey;
+  font-weight: 500;
+}
+#page4 ul li figure {
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+/* Page4 ends here */
+
+/* Page5 starts here */
+#page5 {
+  border-top: 18px solid rgb(242, 244, 246);
+  color: black;
+  height: 70vh;
+  width: 100%;
+  padding: 30px;
+  /* background-color: blueviolet; */
+}
+#page5 h1 {
+  text-align: center;
+  margin: 10px 0px 5px;
+  padding-bottom: 5px;
+}
+#page5 > p {
+  text-align: center;
+  margin: -5px 0px 10px 0px;
+  padding-bottom: 10px;
+}
+#page5 ul {
+  height: 50vh;
+  box-sizing: content-box;
+  width: 75%;
+  display: flex;
+  margin: 5px auto 0px;
+  list-style: none;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+}
+#page5 ul li {
+  flex-basis: 33%;
+  box-sizing: content-box;
+  padding-right: 25px;
+}
+#page5 ul li img {
+  transition: all 0.3s ease;
+  border-radius: 5px;
+}
+#page5 ul li img:hover {
+  transform: scale(1.12);
+  transition: all 0.6s ease;
+}
+#page5 ul li p {
+  font-size: small;
+  margin-top: 12px;
+  margin-bottom: -5px;
+}
+#page5 ul li small {
+  font-size: 11px;
+  color: grey;
+  font-weight: 500;
+}
+/* Page5 ends here */
+
+/* Page6 starts here */
+#page6 {
+  border-top: 18px solid rgb(242, 244, 246);
+  color: black;
+  height: 70vh;
+  width: 100%;
+  padding: 30px;
+  /* background-color: yellow; */
+}
+#page6 h1 {
+  text-align: center;
+  margin: 5px 0px 0px;
+  padding-bottom: 5px;
+}
+#page6 > p {
+  text-align: center;
+  margin: -5px 0px 5px 0px;
+  padding-bottom: 10px;
+}
+#page6 ul {
+  height: 50vh;
+  box-sizing: content-box;
+  width: 95%;
+  display: flex;
+  margin: 5px auto 0px;
+  list-style: none;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+}
+#page6 ul li {
+  flex-basis: 25%;
+  box-sizing: content-box;
+  padding-right: 25px;
+}
+#page6 ul li img {
+  transition: all 0.3s ease;
+  border-radius: 5px;
+}
+#page6 ul li img:hover {
+  transform: scale(1.12);
+  transition: all 0.6s ease;
+}
+#page6 ul li p {
+  font-size: small;
+  margin-top: 12px;
+  margin-bottom: -5px;
+}
+#page6 ul li small {
+  font-size: 11px;
+  color: grey;
+  font-weight: 500;
+}
+/* Page6 ends here */
+
+/* Page7 starts here */
+#page7 {
+  border-top: 18px solid rgb(242, 244, 246);
+  color: black;
+  height: 70vh;
+  width: 100%;
+  padding: 30px;
+  /* background-color: cyan; */
+}
+#page7 h1 {
+  text-align: center;
+  margin: 5px 0px 0px;
+  padding-bottom: 5px;
+}
+#page7 > p {
+  text-align: center;
+  margin: -5px 0px 5px 0px;
+  padding-bottom: 10px;
+}
+#page7 ul {
+  height: 50vh;
+  box-sizing: content-box;
+  width: 95%;
+  display: flex;
+  margin: 5px auto 0px;
+  list-style: none;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+}
+#page7 ul li {
+  flex-basis: 25%;
+  box-sizing: content-box;
+  padding-right: 25px;
+}
+#page7 ul li img {
+  transition: all 0.3s ease;
+  border-radius: 5px;
+}
+#page7 ul li img:hover {
+  transform: scale(1.12);
+  transition: all 0.6s ease;
+}
+#page7 ul li p {
+  font-size: small;
+  margin-top: 12px;
+  margin-bottom: -5px;
+}
+#page7 ul li small {
+  font-size: 11px;
+  color: grey;
+  font-weight: 500;
+}
+/* Page7 ends here */
+
+/* Page8 starts here */
+#page8 {
+  border-top: 18px solid rgb(242, 244, 246);
+
+  color: black;
+  height: 70vh;
+  width: 100%;
+  padding: 30px;
+}
+#page8 h1 {
+  text-align: center;
+  margin: 5px 0px 0px;
+  padding-bottom: 5px;
+}
+#page8 > p {
+  text-align: center;
+  margin: -5px 0px 5px 0px;
+  padding-bottom: 10px;
+}
+#page8 ul {
+  height: 50vh;
+  box-sizing: content-box;
+  width: 95%;
+  display: flex;
+  margin: 5px auto 0px;
+  list-style: none;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+}
+#page8 ul li {
+  flex-basis: 25%;
+  box-sizing: content-box;
+  padding-right: 25px;
+}
+#page8 ul li img {
+  transition: all 0.3s ease;
+  border-radius: 5px;
+}
+#page8 ul li img:hover {
+  transform: scale(1.12);
+  transition: all 0.6s ease;
+}
+#page8 ul li p {
+  font-size: small;
+  margin-top: 12px;
+  margin-bottom: -5px;
+}
+#page8 ul li small {
+  font-size: 11px;
+  color: grey;
+  font-weight: 500;
+}
+/* Page8 ends here */
+
+/* Page9 starts here */
+#page9 {
+  border-top: 18px solid rgb(242, 244, 246);
+
+  color: black;
+  height: 70vh;
+  width: 100%;
+  padding: 30px;
+}
+#page9 h1 {
+  text-align: center;
+  margin: 5px 0px 0px;
+  padding-bottom: 5px;
+}
+#page9 ul {
+  height: 50vh;
+  box-sizing: content-box;
+  width: 95%;
+  display: flex;
+  margin: 5px auto 0px;
+  list-style: none;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+}
+#page9 ul li {
+  flex-basis: 25%;
+  box-sizing: content-box;
+  padding-right: 25px;
+}
+#page9 ul li p {
+  font-size: small;
+  margin-top: 12px;
+  margin-bottom: -5px;
+}
+.fig1 {
+  width: 100%;
+  height: 25vh;
+  padding-bottom: 30px;
+  background-image: url(https://res.cloudinary.com/urbanclap/image/upload/q_auto,f_auto,fl_progressive:steep,w_532/t_high_res_category/categories/bigpictures/carpenter.jpg);
+  background-size: cover;
+  background-position: center;
+  transition: all 0.3s ease;
+}
+.fig1:hover {
+  transform: scale(1.1);
+  transition: all 0.6s ease;
+}
+.fig2 {
+  width: 100%;
+  height: 25vh;
+  padding-bottom: 30px;
+  background-image: url(https://res.cloudinary.com/urbanclap/image/upload/q_auto,f_auto,fl_progressive:steep,w_532/t_high_res_category/categories/home_screen/carpenter.jpg);
+  background-size: cover;
+  background-position: center;
+  transition: all 0.3s ease;
+}
+.fig2:hover {
+  transform: scale(1.1);
+  transition: all 0.6s ease;
+}
+.fig3 {
+  width: 100%;
+  height: 25vh;
+  padding-bottom: 30px;
+  background-image: url(https://res.cloudinary.com/urbanclap/image/upload/q_auto,f_auto,fl_progressive:steep,w_532/t_high_res_category/categories/category_v2/category_a91b73d0.jpeg);
+  background-size: cover;
+  background-position: center;
+  transition: all 0.3s ease;
+}
+.fig3:hover {
+  transform: scale(1.1);
+  transition: all 0.6s ease;
+}
+.fig4 {
+  width: 100%;
+  height: 25vh;
+  padding-bottom: 30px;
+  background-image: url(https://res.cloudinary.com/urbanclap/image/upload/q_auto,f_auto,fl_progressive:steep,w_532/t_high_res_category/categories/home_screen/plumber.jpg);
+  background-size: cover;
+  background-position: center;
+  transition: all 0.3s ease;
+}
+.fig4:hover {
+  transform: scale(1.1);
+  transition: all 0.6s ease;
+}
+/* Page9 ends here */
+
+/* for Page10, Page11, Page12 */
+#page10,
+#page11,
+#page12 {
+  border-top: 18px solid rgb(242, 244, 246);
+
+  cursor: pointer;
+}
+/* ends here */
+
+/* Footer starts here */
+#footer {
+  border-top: 18px solid rgb(242, 244, 246);
+  color: white;
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+  /* margin: -20px 0px 0px 0px; */
+  padding: 15px 30px 15px 15px;
+}
+#ftop {
+  height: 16vh;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.656);
+}
+#ftop ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+#ftop ul a {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: rgba(218, 216, 216, 0.682);
+  font-size: small;
+  transition: 0.3s all ease;
+}
+#ftop ul a:hover {
+  color: white;
+  transition: 0.5s all ease;
+}
+#fmid ul {
+  list-style: none;
+}
+#fmid ul a {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: rgba(218, 216, 216, 0.682);
+  font-size: small;
+  transition: 0.3s all ease;
+}
+#fmid ul a:hover {
+  color: white;
+  transition: 0.5s all ease;
+}
+#fmid p {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 15px 0px 10px;
+  padding-left: 20px;
+}
+#fmid span {
+  font-size: 14px;
+  color: rgba(229, 227, 227, 0.682);
+  font-weight: 600;
+  padding-left: 20px;
+}
+.usa {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.ind {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.uae {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.aus {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.sgp {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.ksa {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+#fend {
+  border-top: 1px solid rgba(128, 128, 128, 0.656);
+  display: flex;
+  height: 15vh;
+  justify-content: space-between;
+  align-items: center;
+  color: rgba(218, 216, 216, 0.682);
+}
+#fend span {
+  font-size: 12px;
+}
+#fend ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+}
+#fend ul li {
+  font-size: x-large;
+  padding-right: 20px;
+}
+#fend ul a {
+  color: rgba(218, 216, 216, 0.682);
+}
+.fsco {
+  flex-basis: 40%;
+}
